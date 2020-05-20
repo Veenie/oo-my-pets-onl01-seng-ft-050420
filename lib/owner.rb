@@ -79,7 +79,7 @@ class Owner
     end
     self.dogs.each do |d|
       d.mood = "nervous"
-      d.remove
+      d
       
     end
   end
